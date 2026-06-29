@@ -1,55 +1,85 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ángeles Chango | Neuroimagen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AngelsStroke | Neuroimagen y Medicina de Emergencias</title>
 
 <style>
 
-body{
-font-family:Arial,sans-serif;
-background:#f5f7fa;
+*{
 margin:0;
 padding:0;
-text-align:center;
+box-sizing:border-box;
+}
+
+body{
+font-family:Segoe UI,Arial,sans-serif;
+background:#eef3f8;
+color:#222;
 }
 
 header{
-background:#0057b8;
+background:linear-gradient(135deg,#0b4ea2,#1877f2);
 color:white;
-padding:50px;
+padding:70px 20px;
+text-align:center;
 }
 
-h1{
-margin:0;
-font-size:48px;
+header h1{
+font-size:55px;
+margin-bottom:15px;
 }
 
-h2{
-font-weight:normal;
+header p{
+font-size:22px;
 }
 
-section{
-max-width:900px;
+nav{
+background:white;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:25px;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+}
+
+nav a{
+text-decoration:none;
+color:#0b4ea2;
+font-weight:bold;
+}
+
+.container{
+max-width:1100px;
 margin:auto;
-padding:40px;
+padding:50px 20px;
 }
 
 .card{
 background:white;
-padding:25px;
-margin:20px;
-border-radius:15px;
-box-shadow:0 0 15px rgba(0,0,0,.1);
+padding:35px;
+margin-bottom:30px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h2{
+margin-bottom:15px;
+color:#0b4ea2;
 }
 
 footer{
-background:#0057b8;
+background:#0b4ea2;
 color:white;
-padding:20px;
-margin-top:40px;
+text-align:center;
+padding:30px;
+margin-top:50px;
 }
 
 </style>
@@ -60,44 +90,59 @@ margin-top:40px;
 
 <header>
 
-<h1>🧠 Ángeles Chango</h1>
+<h1>🧠 AngelsStroke</h1>
 
-<h2>Neuroimagen • Medicina de Emergencias • Investigación</h2>
+<p>Neuroimagen · Medicina de Emergencias · Investigación · Educación</p>
 
 </header>
 
-<section>
+<nav>
+
+<a href="#">Inicio</a>
+<a href="#">Neuroimagen</a>
+<a href="#">Casos Clínicos</a>
+<a href="#">Biblioteca</a>
+<a href="#">Proyecto Angels</a>
+<a href="#">Contacto</a>
+
+</nav>
+
+<div class="container">
 
 <div class="card">
 
 <h2>Bienvenido</h2>
 
-<p>Este sitio reúne contenido científico sobre neuroimagen, medicina de emergencias, enfermedad cerebrovascular e investigación clínica.</p>
+<p>
+Este proyecto nace con una misión:
+<strong>transformar el conocimiento en neurociencias en herramientas prácticas para mejorar la atención de los pacientes.</strong>
+</p>
 
 </div>
 
 <div class="card">
 
-<h2>Próximamente</h2>
+<h2>¿Qué encontrarás aquí?</h2>
 
-<ul style="text-align:left;display:inline-block;">
-<li>🧠 Neuroimagen</li>
-<li>🚑 Casos clínicos</li>
-<li>📚 Biblioteca científica</li>
-<li>🎯 Proyecto Angels Stroke</li>
-<li>🎓 Máster en Neurociencias</li>
+<ul>
+<li>🧠 Interpretación de TAC y RM cerebral.</li>
+<li>🚑 Casos clínicos reales (anonimizados).</li>
+<li>📚 Artículos científicos explicados.</li>
+<li>🎓 Material docente.</li>
+<li>🎯 Recursos del Proyecto Angels.</li>
 </ul>
 
 </div>
 
-</section>
+</div>
 
 <footer>
 
-© 2026 Ángeles Chango
+© 2026 AngelsStroke
 
 </footer>
 
 </body>
 
 </html>
+```
